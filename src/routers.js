@@ -44,15 +44,15 @@ const router = createRouter({
       ],
     },
 
-    {
-      path: '/auth',
-      component: () => import('./views/Auth/Login.Vue'),
-      name: 'Auth',
-      props: true,
-      meta: {
-        title: 'Auth',
-      },
-    },
+    // {
+    //   path: '/auth',
+    //   component: () => import('./views/Auth/Login.Vue'),
+    //   name: 'Auth',
+    //   props: true,
+    //   meta: {
+    //     title: 'Auth',
+    //   },
+    // },
   ],
 });
 
